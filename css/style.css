@@ -1,0 +1,74 @@
+body {
+    position: relative;
+}
+
+hr {
+    height: 5px;
+    background-color: gray;
+}
+
+.feed {
+    height: 51px;
+}
+
+.logo {
+    padding: 1%;
+    height: 125%;
+}
+
+header {
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.colored {
+    color: rgb(128, 255, 227);
+}
+
+.color {
+    color: navy;
+}
+
+.pad {
+    padding: 1%;
+}
+
+.desc {
+    font-size: 1.2em;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://placeimg.com/1325/400/nature");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-inner {
+    margin: 0 auto;
+    width: 80%;
+    opacity: 0.8;
+}
+
+.foot {
+    color: #ffffff;
+    background-color: #000000;
+}
